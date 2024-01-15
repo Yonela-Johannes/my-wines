@@ -2,12 +2,24 @@
 
 ### Frontend: Built with NextJs, TypeScript, App Router, & Tailwind
 ### Backend: Built with PRISMA ORM, Neon, PlanetScale
-
-![Project Image](client/public/pinky.png)
-
 ## Demo
 
-You can check out a live demo of the application [here](https://be-pleasered-by-pinky.vercel.app)
+You can check out a live demo of the application [here]("")
+
+## 🔓 Stack
+- Next14
+- Typescript
+- Shadcn
+- Tailwind
+
+## 🔓 Benefits
+- Mobile Responsiveness
+
+# 💻 Desktop View
+
+&&
+
+# 📱 Mobile View
 
 ## Key Features
 
@@ -26,6 +38,11 @@ You can check out a live demo of the application [here](https://be-pleasered-by-
 - 🔑 Authentication
 - 🌟 Clean, modern UI using Tailwind
 - 🎁 ...and much more
+
+# ⛏️ Installation
+To follow along the tutorial. Change to the starter branch  after cloning the repo.
+Then install the npm packages & run
+```bash
 
 ## Getting started
 
