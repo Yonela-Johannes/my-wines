@@ -5,7 +5,7 @@ const config: Config = {
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",    "./pages/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}", "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
@@ -19,7 +19,7 @@ const config: Config = {
         'be_vietnam': ["Be Vietnam", "sans-serif"],
         'sans': ['Open Sans', 'sans-serif'],
         'blinker': ['Blinker', 'sans-serif',
-      ]
+        ]
       },
       colors: {
         "primary": "rgb(72,1,3)",

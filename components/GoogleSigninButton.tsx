@@ -6,13 +6,11 @@ import { signIn } from 'next-auth/react'
 import Image from 'next/image'
 
 const GoogleSignInButton = () => {
-  const searchParams = useSearchParams()
-  const callbackUrl = searchParams.get('callbackUrl') as string
 
   return (
     <button
       className='flex w-full gap-2'
-      onClick={() => signIn('google', { callbackUrl })}
+      onClick={() => signIn('google')}
     >
       <Image src='/assets/google.png'
         width={20}

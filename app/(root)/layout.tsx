@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
 import '../globals.css'
 import Header from '@/components/header/Header'
+import Providers from '@/components/Providers'
 const openGraphImage = { images: ['/assets/wine.png'] }
 
 export const metadata: Metadata = {
@@ -25,10 +26,12 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Header />
-        <section className='flex items-center justify-center w-screen overflow-hidden pt-16 sm:py-28 bg-blue'>
-          {children}
-        </section>
+        <Providers>
+          <Header />
+          <section className='flex items-center justify-center w-screen overflow-hidden pt-16 sm:py-28 bg-blue'>
+            {children}
+          </section>
+        </Providers>
       </body>
     </html>
   )
